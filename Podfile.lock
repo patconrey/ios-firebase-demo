@@ -1,0 +1,149 @@
+PODS:
+  - Firebase/Analytics (4.0.2):
+    - Firebase/Core
+  - Firebase/Auth (4.0.2):
+    - Firebase/Core
+    - FirebaseAuth (= 4.0.0)
+  - Firebase/Core (4.0.2):
+    - FirebaseAnalytics (= 4.0.1)
+    - FirebaseCore (= 4.0.2)
+  - Firebase/Crash (4.0.2):
+    - Firebase/Core
+    - FirebaseCrash (= 2.0.0)
+  - Firebase/Database (4.0.2):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.0.0)
+  - Firebase/RemoteConfig (4.0.2):
+    - Firebase/Core
+    - FirebaseRemoteConfig (= 2.0.0)
+  - Firebase/Storage (4.0.2):
+    - Firebase/Core
+    - FirebaseStorage (= 2.0.0)
+  - FirebaseAnalytics (4.0.1):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseAuth (4.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.2):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCrash (2.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseDatabase (4.0.0):
+    - FirebaseAnalytics (~> 4.0)
+  - FirebaseInstanceID (2.0.0):
+    - FirebaseCore (~> 4.0)
+  - FirebaseRemoteConfig (2.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseStorage (2.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/Logger (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+  - GTMSessionFetcher/Core (1.1.10)
+  - MaterialComponents/AnimationTiming (25.0.0)
+  - MaterialComponents/Buttons (25.0.0):
+    - MaterialComponents/Buttons/ColorThemer (= 25.0.0)
+    - MaterialComponents/Buttons/Component (= 25.0.0)
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFTextAccessibility
+  - MaterialComponents/Buttons/ColorThemer (25.0.0):
+    - MaterialComponents/Buttons/Component
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Themes
+    - MaterialComponents/Typography
+    - MDFTextAccessibility
+  - MaterialComponents/Buttons/Component (25.0.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFTextAccessibility
+  - MaterialComponents/Ink (25.0.0):
+    - MaterialComponents/Ink/ColorThemer (= 25.0.0)
+    - MaterialComponents/Ink/Component (= 25.0.0)
+  - MaterialComponents/Ink/ColorThemer (25.0.0):
+    - MaterialComponents/Ink/Component
+    - MaterialComponents/Themes
+  - MaterialComponents/Ink/Component (25.0.0)
+  - MaterialComponents/OverlayWindow (25.0.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Application (25.0.0)
+  - MaterialComponents/private/KeyboardWatcher (25.0.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (25.0.0)
+  - MaterialComponents/private/Overlay (25.0.0)
+  - MaterialComponents/ShadowElevations (25.0.0)
+  - MaterialComponents/ShadowLayer (25.0.0)
+  - MaterialComponents/Snackbar (25.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/OverlayWindow
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Overlay
+    - MaterialComponents/Typography
+  - MaterialComponents/Themes (25.0.0)
+  - MaterialComponents/Typography (25.0.0):
+    - MaterialComponents/private/Application
+  - MDFTextAccessibility (1.2.0)
+  - Protobuf (3.3.0)
+
+DEPENDENCIES:
+  - Firebase/Analytics
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Crash
+  - Firebase/Database
+  - Firebase/RemoteConfig
+  - Firebase/Storage
+  - MaterialComponents/Buttons
+  - MaterialComponents/Snackbar
+
+SPEC CHECKSUMS:
+  Firebase: c7ad0731eab26d18a3fc547dd048b0f7cd9c63ae
+  FirebaseAnalytics: 4d7040fefc3cd8b291cde35f12cf063d7963f15d
+  FirebaseAuth: ebb6abcbabae00fc47446d690c19ce68d8484fde
+  FirebaseCore: 1a8bf6c795ad07d2918278657954ffd2552e9c17
+  FirebaseCrash: 600ec2cbd8e10c3064a42de2c6ee7687bd02a076
+  FirebaseDatabase: d829b3a8c3e2ac7a16773c5df226966b0805dfc2
+  FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
+  FirebaseRemoteConfig: b1bde8c572a1ca13558b5b179f4563cb877aa34b
+  FirebaseStorage: 8110a1ed2034c8fbfd83890d2acc9cdbbd99afec
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMSessionFetcher: 30d874b96d0d76028f61fbd122801e3f030d47db
+  MaterialComponents: 56ec9b0785ab6e463f218fe15684fa586d5d92b2
+  MDFTextAccessibility: 94098925e0853551c5a311ce7c1ecefbe297cdb6
+  Protobuf: d582fecf68201eac3d79ed61369ef45734394b9c
+
+PODFILE CHECKSUM: 74a243a1ea48d515096e2d01f9e05005eb06eea1
+
+COCOAPODS: 1.2.1
